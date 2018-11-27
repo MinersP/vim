@@ -11,7 +11,8 @@ set encoding=utf-8
 " NERDTree Settings
 autocmd FileType nerdtree setlocal nolist
 map <C-n> :NERDTreeToggle<CR>
-let g:NERDTreeWinSize=40
+let g:NERDTreeWinSize=35
+let NERDTreeNodeDelimiter = "\t"
 " End NERDTree Settings
 
 " Syntastic Settings
