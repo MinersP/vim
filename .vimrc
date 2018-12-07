@@ -3,8 +3,18 @@ syntax on
 filetype plugin indent on
 
 " General Settings
+set hidden
 set number
 set encoding=utf-8
+
+set wrap
+set textwidth=79
+set formatoptions=tcqrn1
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+set noshiftround
 " End General Settings
 
 
