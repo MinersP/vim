@@ -17,6 +17,13 @@ set expandtab
 set noshiftround
 " End General Settings
 
+" VIM-Airline Settings
+let g:airline#extensions#tabline#enabled = 1
+"let g:airline#entensions#tabline#formatter = 'default'
+"let g:airline#entensions#tabline#formatter = 'jsformatter'
+"let g:airline#entensions#tabline#formatter = 'unique_tail'
+let g:airline#entensions#tabline#formatter = 'unique_tail_improved'
+" End VIM-Airline Settings
 
 " NERDTree Settings
 autocmd FileType nerdtree setlocal nolist
